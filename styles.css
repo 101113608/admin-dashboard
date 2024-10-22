@@ -9,3 +9,7 @@
     box-sizing: border-box;
     font-family: "roboto-medium", Arial,Helvetica Neue,Helvetica,sans-serif;
 }
+
+body {
+    min-height: 100svh;
+}
