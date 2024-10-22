@@ -15,4 +15,22 @@ body {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 4fr;
+    grid-template-areas:
+    'sidebar header'
+    'sidebar main';
+}
+
+.main-content {
+    background-color: #e1e8f0;
+    grid-area: main;
+}
+
+aside {
+    background-color: #1892d3;
+    grid-area: sidebar;
+}
+
+header {
+    background-color: #ffffff;
+    grid-area: header;
 }
