@@ -20,6 +20,10 @@ body {
     'sidebar main';
 }
 
+ul {
+    list-style: none;
+}
+
 .main-content {
     background-color: #e1e8f0;
     grid-area: main;
