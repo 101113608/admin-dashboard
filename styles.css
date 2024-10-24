@@ -37,6 +37,7 @@ aside a:visited {
 
 aside {
     background-color: #1892d3;
+    padding-top: 1rem;
 
     /* Grid item properties */
     grid-area: sidebar;
