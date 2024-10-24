@@ -67,6 +67,10 @@ aside a {
     gap: 1rem;
 }
 
+aside a img {
+    justify-self: center;
+}
+
 header {
     background-color: #ffffff;
     grid-area: header;
