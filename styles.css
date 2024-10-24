@@ -79,6 +79,13 @@ aside>ul>li:nth-of-type(n+2)>a {
     font-size: 1.2rem;
 }
 
+/* Highlight nav links in aside element */
+aside>ul>li:nth-of-type(n+3):nth-of-type(-n+8)>a:hover,
+aside>ul>li:nth-of-type(n+10):nth-of-type(-n+12)>a:hover
+{
+    background-color: #1eb0ff;
+}
+
 header {
     background-color: #ffffff;
     grid-area: header;
