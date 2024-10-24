@@ -54,6 +54,9 @@ aside li {
 }
 
 aside a {
+    padding-left: 1rem;
+    padding-right: 4rem;
+
     /* Grid item properties */
     grid-column: span 2;
 
