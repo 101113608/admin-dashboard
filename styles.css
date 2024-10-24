@@ -48,6 +48,22 @@ aside {
     grid-auto-rows: 3rem;
 }
 
+aside ul,
+aside li {
+    display: contents;
+}
+
+aside a {
+    /* Grid item properties */
+    grid-column: span 2;
+
+    /* Grid container properties */
+    display: grid;
+    grid-template-columns: subgrid;
+    align-items: center;
+    gap: 1rem;
+}
+
 header {
     background-color: #ffffff;
     grid-area: header;
