@@ -106,3 +106,11 @@ header {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(2, auto);
 }
+
+.search-bar {
+    /* Grid container properties */
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: center;
+    gap: 0.5rem;
+}
