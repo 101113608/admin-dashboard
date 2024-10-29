@@ -94,5 +94,12 @@ aside>ul>li:nth-of-type(9)>a:hover {
 
 header {
     background-color: #ffffff;
+
+    /* Grid item properties */
     grid-area: header;
+
+    /* Grid container properties */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, auto);
 }
