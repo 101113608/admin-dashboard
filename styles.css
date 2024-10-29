@@ -114,3 +114,21 @@ header {
     align-items: center;
     gap: 0.5rem;
 }
+
+.search-bar input[type="text"] {
+    height: 2.5rem;
+    background-color: #e1e8f0;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.search-bar input[type="text"]:focus {
+    outline: 1px solid #1892d3;
+    font-size: 1.2rem;
+}
