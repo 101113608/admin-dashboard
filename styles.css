@@ -159,3 +159,11 @@ header {
     justify-content: end;
     gap: 1.5rem;
 }
+
+.user-info-large {
+    /* Grid container properties */
+    display: grid;
+    grid-template-columns: min-content auto;
+    align-items: center;
+    gap: 1rem;
+}
