@@ -150,3 +150,12 @@ header {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+
+.user-info-small {
+    /* Grid container properties */
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    align-items: center;
+    justify-content: end;
+    gap: 1.5rem;
+}
