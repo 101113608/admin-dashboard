@@ -167,3 +167,12 @@ header {
     align-items: center;
     gap: 1rem;
 }
+
+.user-actions {
+    /* Grid container properties */
+    display: grid;
+    grid-template-columns: repeat(3, min-content);
+    align-items: center;
+    justify-content: end;
+    gap: 2rem;
+}
