@@ -109,8 +109,9 @@ aside>ul>li:nth-of-type(9)>a:hover {
 header {
     background-color: #ffffff;
     padding: 1rem 3rem;
-    filter: drop-shadow(1px 5px 3px rgba(0, 0, 0, 0.106));
-    -webkit-filter: drop-shadow(1px 5px 3px rgba(0, 0, 0, 0.106));
+
+	filter: drop-shadow(1px 5px 3px #5f5f5f1c);
+    -webkit-filter: drop-shadow(1px 5px 3px #5f5f5f1c);
 
     /* Grid item properties */
     grid-area: header;
