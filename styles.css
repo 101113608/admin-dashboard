@@ -262,4 +262,9 @@ header {
 .project-actions {
     /* Grid item properties */
     justify-self: end;
+
+    /* Grid container properties */
+    display: grid;
+    grid-template-columns: repeat(3, min-content);
+    gap: 1rem;
 }
