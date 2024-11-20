@@ -8,6 +8,10 @@
     src: url(/fonts/roboto-medium-webfont.woff2);
 }
 
+.dove-grey {
+    color: #636363;
+}
+
 * {
     margin: 0;
     padding: 0;
