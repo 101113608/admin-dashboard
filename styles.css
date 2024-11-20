@@ -223,4 +223,8 @@ header {
 .user-projects {
     /* Grid item properties */
     grid-row: span 2;
+
+    /* Grid container properties */
+    display: grid;
+    grid-template-rows: min-content 1fr;
 }
