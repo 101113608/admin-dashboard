@@ -221,6 +221,8 @@ header {
 }
 
 .user-projects {
+    margin-right: 1rem;
+
     /* Grid item properties */
     grid-row: span 2;
 
