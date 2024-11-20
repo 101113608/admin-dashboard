@@ -230,6 +230,8 @@ header {
 }
 
 .project-list {
+    margin-top: 0.5rem;
+
     /* Grid container properties */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(405px, 1fr));
