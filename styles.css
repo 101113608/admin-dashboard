@@ -249,4 +249,8 @@ header {
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
+
+    /* Grid container properties */
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
 }
