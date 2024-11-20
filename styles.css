@@ -228,3 +228,10 @@ header {
     display: grid;
     grid-template-rows: min-content 1fr;
 }
+
+.project-list {
+    /* Grid container properties */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(405px, 1fr));
+    gap: 1.5rem;
+}
