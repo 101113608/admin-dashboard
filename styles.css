@@ -209,6 +209,7 @@ header {
 
 .main-content {
     background-color: #e1e8f0;
+    padding: 1rem 2rem;
 
     /* Grid item properties */
     grid-area: main;
