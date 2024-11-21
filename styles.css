@@ -318,3 +318,9 @@ header {
     height: 1px;
     background-color: #d1d1d1;
 }
+
+.trending {
+    /* Grid container properties */
+    display: grid;
+    grid-template-rows: min-content 1fr;
+}
