@@ -321,6 +321,7 @@ header {
 
 .trending {
     margin-top: 1rem;
+    font-size: 0.9rem;
 
     /* Grid container properties */
     display: grid;
