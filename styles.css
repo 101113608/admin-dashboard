@@ -346,3 +346,13 @@ header {
     grid-template-columns: min-content 1fr;
     gap: 1rem;
 }
+
+.trending ul li {
+    /* Grid item properties */
+    grid-column: span 2;
+
+    /* Grid container properties */
+    display: grid;
+    align-items: center;
+    grid-template-columns: subgrid;
+}
