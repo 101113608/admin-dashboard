@@ -348,6 +348,8 @@ header {
 }
 
 .trending ul li {
+    margin-left: 1rem;
+
     /* Grid item properties */
     grid-column: span 2;
 
