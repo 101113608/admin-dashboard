@@ -312,3 +312,9 @@ header {
 .announcements ul li h4 {
     font-size: 0.9rem;
 }
+
+.announcements hr {
+    border: none;
+    height: 1px;
+    background-color: #d1d1d1;
+}
