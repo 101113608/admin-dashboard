@@ -304,3 +304,11 @@ header {
 .announcements li:has(hr) {
     width: 85%;
 }
+
+.announcements ul li p {
+    font-size: 0.8rem;
+}
+
+.announcements ul li h4 {
+    font-size: 0.9rem;
+}
