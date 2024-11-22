@@ -19,16 +19,6 @@
     font-family: "roboto-regular", Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
-body {
-    min-height: 100svh;
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-    grid-template-rows: 1fr 4fr;
-    grid-template-areas:
-        'sidebar header'
-        'sidebar main';
-}
-
 ul {
     list-style: none;
 }
@@ -37,10 +27,28 @@ a:link {
     text-decoration: none;
 }
 
+aside p,
+.trending ul li p:nth-of-type(1),
+header h2,
+header h4,
+header button {
+    font-family: "roboto-medium";
+}
+
 aside a:link,
 aside a:visited {
     text-decoration: none;
     color: #ffffff
+}
+
+body {
+    min-height: 100svh;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr 4fr;
+    grid-template-areas:
+        'sidebar header'
+        'sidebar main';
 }
 
 aside {
